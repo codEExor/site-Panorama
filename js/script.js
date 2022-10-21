@@ -24,7 +24,7 @@ $(function() {
 
 });
 
-//pop-up window 
+//pop-up window bron
 let openPopUp = document.querySelector('.open_pop_up');
 let closePopUp = document.querySelector('.pop_up_close');
 let popUp = document.querySelector('.pop_up');
@@ -36,6 +36,20 @@ openPopUp.addEventListener('click', function(e) {
 
 closePopUp.addEventListener('click', () => {
     popUp.classList.remove('active');
+})
+
+//pop-up window bron
+let openPopUpDelivery = document.querySelector('.open_pop_up-Delivery');
+let closePopUpDelivery = document.querySelector('.pop_up_close-Delivery');
+let popUpDelivery = document.querySelector('.pop_up-Delivery');
+
+openPopUpDelivery.addEventListener('click', function(e) {
+    e.preventDefault();
+    popUpDelivery.classList.add('active');
+})
+
+closePopUpDelivery.addEventListener('click', () => {
+    popUpDelivery.classList.remove('active');
 })
 
 
