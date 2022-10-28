@@ -225,17 +225,15 @@
     }
     
     .our_news__col {
-        max-width: 1250px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin: 0 10px !important;
+        max-width: 1138px;
+        margin: 0 50px !important;
+        padding: 0 10px !important;
     }
     
     .container_slider {
-        max-width: 1280px;
+        text-align: center;
         margin: 0 auto;
+        max-width: 1250px;
     }
     
     .slider-buttons {
@@ -244,8 +242,8 @@
     }
     
     .our_news_-_col-3 {
-        max-width: 380px;
         border: 1px solid #dbd3b5;
+        display: block;
     }
     
     .our_news_-_col-3:last-child {
@@ -288,12 +286,10 @@
     
     .swiper-button-prev.sb-prev {
         color: #906b57;
-        left: -2px;
     }
     
     .swiper-button-next.sb-next {
         color: #906b57;
-        right: -2px;
     }
     
     .our_news-button {
@@ -307,17 +303,14 @@
         padding: 20px 80px;
     }
     
-    .row-our_news .swiper {
-        padding: 0 35px;
-        box-sizing: border-box;
-    }
-    
     .swiper-scrollbar {
         display: none;
     }
     
     .image-slider .swiper-scrollbar {
         background: rgba(0, 0, 0, .1);
+        position: relative !important;
+        margin-top: 20px;
     }
     
     .image-slider .swiper-scrollbar-drag {
@@ -785,6 +778,16 @@ media quaries
         .section-main__button .button {
             font-size: 16px;
         }
+        .our_news__col {
+            margin: 0 5px !important;
+        }
+        .swiper-button-prev.sb-prev,
+        .swiper-button-next.sb-next {
+            display: none;
+        }
+        .swiper-scrollbar {
+            display: block;
+        }
         .form_newsletter button {
             padding: 0 20px;
         }
@@ -846,10 +849,6 @@ media quaries
             padding: 0 20px;
             box-sizing: border-box;
         }
-        .swiper-button-prev.sb-prev,
-        .swiper-button-next.sb-next {
-            display: none;
-        }
         .pop_up_body,
         .pop_up_body-Delivery {
             margin: auto 5px;
@@ -888,9 +887,6 @@ media quaries
         }
         .our_news_-_col-3 p {
             font-size: 16px;
-        }
-        .swiper-scrollbar {
-            display: block;
         }
         .our_news-button {
             padding-top: 30px;
@@ -946,4 +942,3 @@ media quaries
             padding: 15px 40px;
         }
     }
-    /* 260  45 */

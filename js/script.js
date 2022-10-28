@@ -62,41 +62,26 @@ new Swiper('.image-slider', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
     },
-    // pagination: {
-    //     el: '.swiper-pagination',
 
-    //     clickable: true,
-    // },
-    //loop: true,
-    //centeredSlides: true,
-    //initialSlide: 2,
 
     breakpoints: {
-        slidesPerView: 3,
-        spaceBetween: 40,
 
         300: {
             slidesPerView: 1,
-            spaceBetween: 25,
+
 
             scrollbar: {
                 el: '.swiper-scrollbar',
                 draggable: true
             },
-            // pagination: {
-            //     el: '.swiper-pagination',
-
-            //     clickable: true,
-            // },
         },
-        480: {
+        750: {
             slidesPerView: 2,
-            spaceBetween: 35,
 
         },
         1200: {
             slidesPerView: 3,
-            spaceBetween: 40,
+
         },
     }
 });
